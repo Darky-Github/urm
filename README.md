@@ -1,15 +1,15 @@
 # urm - Ultra RM
 
-`urm` is a safer and more powerful alternative to `rm`, designed to prevent accidental file loss while offering secure deletion when needed. It moves files to a trash folder instead of immediate deletion, with options to recover or permanently erase files securely.
+`urm` is a safe alternative to `rm`, made to prevent accidently deleting files with secure deletion. It moves files to a trash folder instead of deletion, with options to recover or permanently erase files
 
 ## Features
 
-- **Safe Deletion**: Moves files and directories to `~/utrash/` instead of deleting them instantly.
-- **Permanent Deletion (`-etr`)**: Securely wipes files before deletion.
+- **Safe Deletion**: Moves files and directories to `~/utrash/` instead of deleting them
+- **Permanent Deletion (`-etr`)**: Securely wipes files before deleting them
 - **Trash Management (`-trash`)**: Lists deleted files in `~/utrash/`.
 - **Recovery (`-recover filename`)**: Restores files from trash.
 - **Directory Support (`-d directory`)**: Moves directories to `~/utrash/` just like files.
-- **Safety Measures**: Prevents accidental deletion of critical system files.
+- **Safety Measures**: Prevents deleting important system files.
 
 ## Installation
 ```sh
@@ -54,4 +54,4 @@ sudo make uninstall
 This project is licensed under the MIT License
 
 ---
-Developed with safety in mind. Use responsibly!
+Developed with safety in mind. Use responsibly
